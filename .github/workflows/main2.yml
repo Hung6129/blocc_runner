@@ -34,7 +34,7 @@ jobs:
 
         #4 install dependencies
       - name: Install Dependencies
-        run: flutter pub get
+        run: flutter clean && flutter pub get
 
       #   #5 run test
       # - name: Test flutter app
